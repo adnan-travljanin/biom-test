@@ -1,0 +1,18 @@
+<div class="carousel">
+    <div *ngIf="testimonials && testimonials.length > 0" class="carousel-container">
+        <small class="carousel-subtitle">WHAT PEOPLE ARE SAYING</small>
+        <div *ngFor="let testimonial of testimonials; let i = index;" class="testimonial-item">
+            <p class="testimonial-text" [ngClass]="{'testimonial-active': selectedIndex === i}">
+                {{ testimonial.text }}
+            </p>
+            <p class="testimonial-name" [ngClass]="{'testimonial-name-active': selectedIndex === i}">
+                - {{ testimonial.name }}
+            </p>
+        </div>
+
+        <div *ngIf="indicators" class="carousel-dot-container">
+            <span *ngFor="let dot of testimonials; let i = index;" class="dot" [ngClass]="{'active': selectedIndex === i}"
+                (click)="selectTestimonial(i)"></span>
+        </div>
+    </div>
+</div>

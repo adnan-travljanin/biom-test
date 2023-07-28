@@ -1,0 +1,20 @@
+<header class="w-[100%]"(scroll)="onScroll()" [ngClass]="navBarFixed?'fixed':'nofixed'">
+    <mat-toolbar class="bg-transparent flex justify-between text-transform: uppercase h-[68px] max-w-[1440px] my-0 mx-auto" >
+        <div class="flex gap-[40px]">
+            <a class="header-category" href="#">Shop</a>
+            <a class="header-category" href="#">Why biom</a>
+            <a class="header-category" href="#">Scents</a>
+        </div>
+        <div>
+            <a href="#"><img src="./assets/images/logo.png" alt="header-logo"></a>
+        </div>
+        <div class="flex">
+            <a class="header-category" href="#">Sign in</a>
+            <button class="relative flex items-center ml-[40px] gap-[12px]">
+                <small class="header-category">CART</small>
+                <img src="./assets/images/cart.svg" alt="cart">
+                <div class="mat-badge-content absolute top-[-12px] right-[-16px]">0</div>
+            </button>
+        </div>
+    </mat-toolbar>
+</header>
