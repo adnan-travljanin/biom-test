@@ -16,6 +16,7 @@ import { SwiperModule } from 'swiper/angular';
 import { SliderComponent } from './components/home/slider/needIt-slider/needItSlider.component';
 import { InstagramSliderComponent } from './components/home/slider/instagram-slider/instagram-slider.component';
 import { CarouselModule } from './carousel/carousel.module';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CarouselModule } from './carousel/carousel.module';
     MatMenuModule,
     MatToolbarModule,
     SwiperModule,
-    CarouselModule
+    CarouselModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

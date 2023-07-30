@@ -32,10 +32,6 @@ section {
     margin: 0 auto;
 }
 
-.footer-container {
-    margin: 0 auto;
-}
-
 .fixed {
     position: fixed;
     top: 0;
@@ -48,12 +44,10 @@ section {
 }
 
 .mat-badge-content {
-    background: #DDA74A!important;
     width: 32px;
     height: 32px;
     line-height: 32px;
     font-size: 18px;
-    border: 1px solid #fff;
 }
 
 .header-category {
@@ -61,20 +55,16 @@ section {
     font-size: 15px;
     letter-spacing: 1.5px;
     line-height: 22px;
-    color: #000000;
 }
 
 .banner-button {
     font-family: 'Brandon-medium';
-    color: #004A4C;
-    background-color: #fff;
     padding: 0.8rem 2rem;
     border-radius: 6px;
     margin-top: 24px;
 }
 
 marquee {
-    color: #F2F2F2;
     transform: rotate(270deg);
     width: 657px;
     position: absolute;
@@ -99,20 +89,17 @@ marquee {
     font-family: 'Brandon-regular';
     font-size: 14px;
     text-transform: uppercase;
-    color: #002D33;
     line-height: 62px;
     letter-spacing: 2.1px;
 }
 .section-heading {
     font-family: 'Chronicle-display-black';
     font-size: 36px;
-    color: #002D33;
     line-height: 62px;
 }
 .section-short-text {
     font-family: 'Brandon-regular';
     font-size: 18px;
-    color: #002D33;
     line-height: 28px;
 }
 
@@ -124,16 +111,13 @@ marquee {
 .meet-biom-icon-text p, .biom-wipes-icon-text p {
     font-family: 'Brandon-regular';
     font-size: 18px;
-    color: #002D33;
     line-height: 26px;
     margin: 0;
 }
 
 .meet-biom-button {
     font-family: 'Brandon-medium';
-    background: #004A4C;
     border-radius: 5px;
-    color: #FFFAFA;
     letter-spacing: 1.95px;
     line-height: 30px;
     padding: 6px 40px;
@@ -163,20 +147,17 @@ app-slider .swiper-slide {
     bottom: 25px;
     left: 50%;
     transform: translate(-50%, 0);
-    color: white;
 }
 .needIt-small {
     font-family: 'Brandon-regular';
     font-size: 16px;
     letter-spacing: 2.4px;
     line-height: 23px;
-    color: #FFFFFF;
 }
 .needIt-big {
     font-family: 'Chronicle-display-black';
     font-size: 78px;
     line-height: 82px;
-    color: #FFFFFF;
 }
 .dispenser-content-left {
     align-self: center;
@@ -185,20 +166,16 @@ app-slider .swiper-slide {
     font-family: 'Chronicle-display-black';
     font-size: 36px;
     line-height: 44px;
-    color: #000000;
     max-width: 315px;
     margin-bottom: 35px;
 }
 .dispenser-content-left button {
-    color: #002D33;
     border-radius: 6px;
-    border: 1px solid #002D33;
     align-items: center;
     padding: 0 10px;
 }
 .dispenser-content-left button span {
     font-family: 'Brandon-medium';
-    border-right: 1px solid #002D33;
     font-size: 13px;
     letter-spacing: 1.95px;
     line-height: 40px;
@@ -212,22 +189,6 @@ app-slider .swiper-slide {
 .dispenser-content-left button:hover img {
     transition: transform 0.3s ease;
     transform: translateX(2px);
-}
-.dispenser-container .dispenser-info-container{
-    display: none;
-    transition: transform 0.3s ease;
-}
-.dispenser-container:hover .dispenser-info-container {
-    display: block;
-    transition: transform 0.3s ease;
-}
-.dispenser-container img {
-    transition: transform 0.3s ease;
-    transform: translateX(0px);
-}
-.dispenser-container:hover img {
-    transition: transform 0.3s ease;
-    transform: translateX(40px);
 }
 .dispenser-info-container {
     position: absolute;
@@ -249,7 +210,6 @@ app-slider .swiper-slide {
     overflow: hidden;
 }
 .carousel {
-    background: #F2F2F2;
     position: relative;
     bottom: 15px;
 }
@@ -266,7 +226,6 @@ app-slider .swiper-slide {
     font-size: 14px;
     letter-spacing: 2.1px;
     line-height: 62px;
-    color: #002D33;
 }
 .carousel-container p {
     display: none;
@@ -279,14 +238,12 @@ app-slider .swiper-slide {
     font-family: 'Chronicle-display-black';
     font-size: 25px;
     line-height: 42px;
-    color: #002D33;
 }
 .testimonial-name {
     font-family: 'Brandon-medium';
     font-size: 13px;
     letter-spacing: 1.3px;
     line-height: 62px;
-    color: #002D33;
 }
 
 .carousel-dot-container {
@@ -305,8 +262,6 @@ app-slider .swiper-slide {
     height: 8px;
     width: 8px;
     margin: 0 5px;
-    background-color: #F2F2F2;
-    border: 1px solid #004A4C;
     border-radius: 50%;
     display: inline-block;
     transition: opacity 0.6s ease;
@@ -339,19 +294,16 @@ app-slider .swiper-slide {
     font-size: 14px;
     letter-spacing: 2.1px;
     line-height: 62px;
-    color: #FFFAFA;
 }
 .banner-heading {
     font-family: 'Chronicle-display-black';
     font-size: 36px;
     line-height: 62px;
-    color: #FFFAFA;
 }
 .banner-subtitle {
     font-family: 'Brandon-regular';
     font-size: 18px;
     line-height: 28px;
-    color: #FFFAFA;
 }
 .instagram-section {
     text-align: -webkit-center;
@@ -360,14 +312,11 @@ app-slider .swiper-slide {
     font-family: 'Chronicle-display-black';
     font-size: 36px;
     line-height: 44px;
-    color: #002D33;
     margin: 40px 0;
 }
 
 .instagram-button {
-    color: #002D33;
     border-radius: 6px;
-    outline: 1px solid #002D33;
     align-items: center;
     padding-left: 10px;
     overflow: hidden;
@@ -377,7 +326,6 @@ app-slider .swiper-slide {
 
 .instagram-button span {
     font-family: 'Brandon-medium';
-    border-right: 1px solid #002D33;
     font-size: 13px;
     letter-spacing: 1.95px;
     line-height: 38px;
@@ -412,7 +360,6 @@ app-slider .swiper-slide {
     margin: 0 auto;
     position: relative;
     top: 140px;
-    background-color: #F2F2F2;
     border-radius: 14px;
 }
 .footer-newsletter .newsletter-content {
@@ -422,14 +369,12 @@ app-slider .swiper-slide {
     font-family: 'Chronicle-display-black';
     font-size: 30px;
     line-height: 38px;
-    color: #000000;
     max-width: 390px;
 }
 .newsletter-content .newsletter-subtitle {
     font-family: 'Chronicle-display-black';
     font-size: 16px;
     line-height: 26px;
-    color: #000000;
     max-width: 510px;
     margin: 10px 0;
 }
@@ -440,7 +385,6 @@ app-slider .swiper-slide {
 .email-input input{
     font-size: 16px;
     line-height: 30px;
-    color: #000000;
     padding: 8px 170px 8px 15px;
     border-radius: 6px;
 }
@@ -454,7 +398,6 @@ app-slider .swiper-slide {
     right: 4px;
     bottom: 4px;
     padding: 13px;
-    background: #004A4C;
     border-radius: 6px;
 }
 .email-input button:hover{
@@ -469,7 +412,6 @@ app-slider .swiper-slide {
     transform: translateX(2px);
 }
 .footer-main {
-    background: #487D7F;
     height: 386px;
     display: flex;
     align-items: flex-end;
@@ -482,7 +424,6 @@ app-slider .swiper-slide {
 .footer-main hr {
     width: 96%;
     margin: 0 auto;
-    border-color: #004A4C;
 }
 .footer-main .footer-categories {
     display: flex;
@@ -491,7 +432,6 @@ app-slider .swiper-slide {
     padding-bottom: 55px;
     max-width: 870px;
     margin: 0 auto;
-    color: #FFFAFA;
 }
 .footer-categories a {
     font-family: 'Brandon-bold';
@@ -505,7 +445,6 @@ app-slider .swiper-slide {
     padding: 44px 0 40px 0;
     width: 96%;
     margin: 0 auto;
-    color: #FFFAFA;
 }
 .footer-legal-texts {
     display: flex;
@@ -523,7 +462,6 @@ app-slider .swiper-slide {
     gap: 10px;
 }
 .social-media-icons span {
-    background: #FFFAFA;
     border-radius: 50%;
 }
 .social-media-icons .social-instagram {
@@ -544,13 +482,12 @@ app-slider .swiper-slide {
 }
 .two-image-container .second-image {
     position: absolute;
-    bottom: -60px;
-    right: -200px;
+    left: 350px;
+    top: 300px;
 }
 .biom-wipes-content {
     max-width: 1440px;
     width: 58%;
-    background: #DAE5E5;
     height: 606px;
     border-radius: 12px;
 }
@@ -567,3 +504,323 @@ app-slider .swiper-slide {
 .biom-wipes-button {
     margin-left: 75px;
 }
+
+.tablet-mobile-sidebar {
+    /* Style the sidebar to slide in from the left */
+    /* Adjust the width, background color, and other styles as desired */
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    top: 68px;    
+
+  }
+  
+  .tablet-mobile-sidebar.show {
+    transform: translateX(0);
+    top: 68px;
+  }
+
+  @media screen and (max-width:768px) {
+
+    .footer-main {
+        height: fit-content;
+        padding-top: 100px
+    }
+    .footer-categories {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-newsletter {
+        width: 85%;
+        height: fit-content;
+        top: 80px;
+    }
+    .footer-legal-texts small {
+        font-size: 11px;
+    }
+    .footer-newsletter .newsletter-content {
+        text-align: center;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .newsletter-content .newsletter-heading {
+        margin: 0 auto;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .newsletter-content .newsletter-subtitle {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .email-input {
+        margin: 0 auto;
+    }
+    .email-input input {
+        width: 100%;
+        padding: 8px 30px 8px 15px;
+    }
+    .banner-image-content .banner-heading {
+        font-size: 26px;
+        max-width: 220px;
+      }
+    .banner-image-content .banner-button {
+        font-size: 12px;
+        padding: 0.5rem 1rem;
+    }
+    .banner-image-content {
+        left: 3rem;
+    }
+    
+    .meet-biom-content .section-heading {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .meet-biom-content .section-short-text {
+        font-size: 16px;
+    }
+    
+    .meet-biom-icon-text {
+        gap: 15px;
+    }
+    .needIt-small {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .needIt-big {
+        font-size: 56px;
+        line-height: 65px;
+    }
+    .testimonial-text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .testimonial-name {
+        font-size: 11px;
+        line-height: 52px;
+    }
+    .video-content .banner-small-text {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .video-content .banner-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .video-content .banner-subtitle {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .video-content .banner-button {
+        font-size: 12px;
+        padding: 0.5rem 1rem;
+    }
+  }
+  .banner-image-content .banner-heading {
+    line-height: 44px;
+  }
+
+  @media screen and (max-width:1440px) {
+    .banner-image-content {
+        transform: translate(0%, -10%);
+    }
+    .swiper {
+        padding: 0 15px;
+    }
+  }
+
+  @media screen and (max-width:1024px) {
+    .banner-image-content .banner-subtitle {
+        font-size: 16px;
+      }
+      .meet-biom-content {
+        position: unset;
+        width: 80%;
+        margin: 0 auto;
+        max-width: unset;
+    }
+    .meet-biom-wrapper {
+        text-align: center;
+    }
+    .meet-biom-info {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+    .dispenser-section {
+        padding: 0 20px;
+    }
+    .dispenser-content-left div {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .dispenser-content-left button span {
+        line-height: 24px;
+    }
+    
+  }
+
+  @media screen and (max-width:992px) {
+    .dispenser-content-left button span {
+        line-height: 40px;
+    }
+    .dispenser-content-left {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .dispenser-content-left div {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .dispenser-content-left button {
+        margin: 0 auto;
+    }
+    .dispenser-section {
+        flex-direction: column;
+    }
+    .dispenser-container:hover img {
+        transform: translate(0);
+    }
+    .dispenser-container .dispenser-info-container {
+        display: block;
+        text-align: center;
+        position: unset;
+    }
+  }
+
+  @media screen and (max-width:575px) {
+    .banner-image-content .banner-subtitle {
+        display: none;
+      }
+    marquee {
+        width: 59%;
+        top: 50px;
+        font-size: 70px;
+        line-height: 60px;
+        left: 160px;
+        transform: rotate(0deg);
+    }
+    .meet-biom-wrapper {
+        overflow: hidden;
+        padding: 0 15px;
+    }
+    .meet-biom-icon-text {
+        flex-direction: column;
+    }
+    .needIt-small {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .needIt-big {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .biom-wipes-content-container {
+        padding: 15px;
+    }
+    .biom-wipes-info {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .video-content .banner-small-text {
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .video-content .banner-heading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .video-content .banner-subtitle {
+        display: none;
+    }
+    .video-content .banner-button {
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width:1300px) {
+    .meet-biom-content {
+        top: 15px;
+        right: 2rem;
+    }
+    .meet-biom-content .section-subtitle {
+        line-height: 34px;
+    }
+    .meet-biom-content .section-heading {
+        line-height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .two-box-container {
+        flex-direction: column;
+    }
+    .two-image-container {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .two-image-container .first-image {
+        width: 100%;
+        max-width: 300px;
+        position: unset;
+    }
+    .two-image-container .second-image {
+        position: unset;
+        transform: translate(-85px, 0);
+        width: 38%;
+        max-width: 150px;
+    }
+    .biom-wipes-content {
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+    }
+    .biom-wipes-icon-text {
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .biom-wipes-button {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .biom-wipes-content-container .section-subtitle {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .biom-wipes-content-container .section-heading {
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .biom-wipes-content-container .section-short-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+  }
+
+  @media screen and (min-width:992px) {
+    .dispenser-container .dispenser-info-container{
+        display: none;
+        transition: transform 0.3s ease;
+    }
+    .dispenser-container:hover .dispenser-info-container {
+        display: block;
+        transition: transform 0.3s ease;
+    }
+    .dispenser-container img {
+        transition: transform 0.3s ease;
+        transform: translateX(0px);
+    }
+    .dispenser-container:hover img {
+        transition: transform 0.3s ease;
+        transform: translateX(40px);
+    }
+  }
+  @media screen and (min-width:992px) and (max-width:1024px) {
+    .dispenser-container:hover img {
+        transform: translateX(60px);
+    }
+  }

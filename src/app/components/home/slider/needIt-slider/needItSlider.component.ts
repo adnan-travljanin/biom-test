@@ -7,10 +7,10 @@ import { Component, HostListener, ViewEncapsulation } from '@angular/core';
       [slidesPerView]="slidesPerView"
       [spaceBetween]="20"
     >
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Living_Room.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription">living room</div></div></ng-template>
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/office.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription">office</div></div></ng-template>
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Kitchen_slide.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription">kitchen</div></div></ng-template>
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/bathroom.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription">bathroom</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Living_Room.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">living room</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/office.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">office</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Kitchen_slide.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">kitchen</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/bathroom.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">bathroom</div></div></ng-template>
     </swiper>
   `,
   styles: [
@@ -35,7 +35,7 @@ export class SliderComponent {
   updateSlidesPerView(windowWidth: number) {
     if (windowWidth >= 1024) {
       this.slidesPerView = 3; // Desktop
-    } else if (windowWidth >= 768) {
+    } else if (windowWidth >= 560) {
       this.slidesPerView = 2; // Tablet
     } else {
       this.slidesPerView = 1; // Mobile

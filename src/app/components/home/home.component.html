@@ -4,34 +4,34 @@
         <div class="banner-image-content absolute top-[25%] left-20">
           <div class="banner-heading max-w-[190px]">So fresh. So green.</div>
           <div class="banner-subtitle  max-w-[331px] leading-7">We believe that a more eco-friendly everyday makes a happier you and me. We’re on a mission to put sustainability in reach with better-for-the-planet wipes that are easy, effective, and plastic-free.</div>
-          <button class="banner-button">GET STARTED</button>
+          <button class="banner-button text-sherpa-blue bg-white">GET STARTED</button>
         </div>
     </div>
 </section>
 
 <section>
     <div class="meet-biom-wrapper relative">
-        <div>
+        <div class="relative overflow-hidden">
             <img src="./assets/images/meet-biom.png" alt="Meet Biom" class="meet-biom-image">
-            <marquee behavior="scroll" direction="left" scrolldelay="100">meet biom</marquee>
+            <marquee behavior="scroll" direction="left" scrolldelay="100" class="text-concrete">meet biom</marquee>
         </div>
         
         <div class="meet-biom-content absolute top-[100px] right-20">
-            <div class="section-subtitle">The Biom Dispenser</div>
-            <div class="section-heading">Redefine your experience of clean.</div>
-            <p class="section-short-text">A quality engineered wipes dispenser that looks beautiful in your home, making better habits for your home and planet always within reach.</p>
+            <div class="section-subtitle text-deep-teal">The Biom Dispenser</div>
+            <div class="section-heading text-deep-teal">Redefine your experience of clean.</div>
+            <p class="section-short-text text-deep-teal">A quality engineered wipes dispenser that looks beautiful in your home, making better habits for your home and planet always within reach.</p>
             <div class="meet-biom-info">
                 <div class="flex items-center meet-biom-icon-text">
                     <img src="./assets/images/beautiful-design.png" alt="Beautiful design">
-                    <p>Beautiful design, fit for your home</p>
+                    <p class="text-deep-teal">Beautiful design, fit for your home</p>
                 </div>
                 <div class="flex items-center meet-biom-icon-text">
                     <img src="./assets/images/durable-stainless.png" alt="Durable Stainless">
-                    <p>Durable stainless steel exterior</p>
+                    <p class="text-deep-teal">Durable stainless steel exterior</p>
                 </div>
                 <div class="flex items-center meet-biom-icon-text">
                     <img src="./assets/images/non-toxic.png" alt="Non-toxic">
-                    <p>Non-toxic, BPA free</p>
+                    <p class="text-deep-teal">Non-toxic, BPA free</p>
                 </div>
             </div>
             
@@ -44,16 +44,16 @@
     <div class="relative">
         <app-slider></app-slider>
         <div class="absolute top-[50%] left-[50%] text-center max-w-[350px] translate-x-[-50%] translate-y-[-50%]">
-            <div class="needIt-small">WHERE YOU NEED IT</div>
-            <div class="needIt-big">when you need it.</div>
+            <div class="needIt-small text-white">WHERE YOU NEED IT</div>
+            <div class="needIt-big text-white">when you need it.</div>
         </div>
     </div>
 </section>
 
-<section class="flex">
+<section class="flex dispenser-section">
     <div class="dispenser-content-left">
-        <div>Ready to start wiping out waste?</div>
-        <button class="flex"><span>Choose your vessel color</span><img src="./assets/images/arrow.svg"></button>
+        <div class="text-black">Ready to start wiping out waste?</div>
+        <button class="flex text-deep-teal border border-deep-teal"><span class="border-r border-deep-teal">Choose your vessel color</span><img src="./assets/images/arrow.svg"></button>
     </div>
     <div class="flex">
         <div class="relative dispenser-container">
@@ -84,13 +84,13 @@
     <app-carousel [testimonials]="testimonials"></app-carousel>
 </section>
 
-<section>
+<section class="px-[15px]">
     <div class="two-box-container flex">
         <div class="relative two-image-container">
             <img class="first-image" src="./assets/images/stock_wipe.png" alt="">
             <img class="second-image" src="./assets/images/Refill.png" alt="">
         </div>
-        <div class="biom-wipes-content">
+        <div class="biom-wipes-content bg-geyser">
             <div class="biom-wipes-content-container">
                 <div class="section-subtitle">BIOM WIPES</div>
                 <div class="section-heading">Better for you, and the planet.</div>
@@ -98,19 +98,19 @@
                 <div class="biom-wipes-info">
                     <div class="flex items-center biom-wipes-icon-text">
                         <img src="./assets/images/biodegradable.png" alt="Beautiful design">
-                        <p>100% biodegradable</p>
+                        <p class="text-deep-teal">100% biodegradable</p>
                     </div>
                     <div class="flex items-center biom-wipes-icon-text">
                         <img src="./assets/images/plastic_free.png" alt="Durable Stainless">
-                        <p>Plastic-free</p>
+                        <p class="text-deep-teal">Plastic-free</p>
                     </div>
                     <div class="flex items-center biom-wipes-icon-text">
                         <img src="./assets/images/plant_based.png" alt="Non-toxic">
-                        <p>100% plant-based</p>
+                        <p class="text-deep-teal">100% plant-based</p>
                     </div>
                 </div>
                 
-                <button class="primary meet-biom-button biom-wipes-button">SUBSCRIBE NOW</button>
+                <button class="meet-biom-button biom-wipes-button bg-sherpa-blue text-rose-white">SUBSCRIBE NOW</button>
             </div>
         </div>
     </div>
@@ -121,15 +121,15 @@
         <source src="./assets/images/video.mp4" type="video/mp4">
     </video>
     <div class="video-content absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
-        <small class="banner-small-text">CLEANING OUR OCEANS WITH EVERY WIPE</small>
-        <div class="banner-heading">Wipes have plastic in them. We don’t.</div>
-        <div class="banner-subtitle">We reinvented wipes to cut out all the bad stuff —like single-use plastic that hurts the environment, and toxic chemicals that don’t belong in our oceans (or in our homes).</div>
-        <button class="banner-button">LEARN MORE</button>
+        <small class="banner-small-text text-rose-white">CLEANING OUR OCEANS WITH EVERY WIPE</small>
+        <div class="banner-heading text-rose-white">Wipes have plastic in them. We don’t.</div>
+        <div class="banner-subtitle text-rose-white">We reinvented wipes to cut out all the bad stuff —like single-use plastic that hurts the environment, and toxic chemicals that don’t belong in our oceans (or in our homes).</div>
+        <button class="banner-button text-sherpa-blue bg-white">LEARN MORE</button>
     </div>
 </section>
 
 <section class="instagram-section">
-    <div class="instagram-heading">#cleanwithbiom</div>
+    <div class="instagram-heading text-deep-teal">#cleanwithbiom</div>
     <app-instagram-slider></app-instagram-slider>
-    <button class="flex instagram-button"><span>FOLLOW US ON INSTAGRAM </span><img class="instagram-regular" src="./assets/images/instagram.svg"><img class="instagram-white" src="./assets/images/instagram-white.svg"></button>
+    <button class="flex instagram-button text-deep-teal border border-deep-teal"><span class="border-r border-deep-teal">FOLLOW US ON INSTAGRAM </span><img class="instagram-regular" src="./assets/images/instagram.svg"><img class="instagram-white" src="./assets/images/instagram-white.svg"></button>
 </section>

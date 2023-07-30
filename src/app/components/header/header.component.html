@@ -1,20 +1,48 @@
-<header class="w-[100%]"(scroll)="onScroll()" [ngClass]="navBarFixed?'fixed':'nofixed'">
-    <mat-toolbar class="bg-transparent flex justify-between text-transform: uppercase h-[68px] max-w-[1440px] my-0 mx-auto" >
+<header class="w-full" (scroll)="onScroll()" [ngClass]="navBarFixed ? 'fixed' : 'nofixed'">
+    <mat-toolbar class="bg-transparent flex justify-between items-center text-transform: uppercase h-[68px] max-w-[1440px] mx-auto px-4 desktop-header" *ngIf="!isTabletOrMobile()">
         <div class="flex gap-[40px]">
-            <a class="header-category" href="#">Shop</a>
-            <a class="header-category" href="#">Why biom</a>
-            <a class="header-category" href="#">Scents</a>
+            <a class="header-category text-black" href="#">Shop</a>
+            <a class="header-category text-black" href="#">Why biom</a>
+            <a class="header-category text-black" href="#">Scents</a>
         </div>
         <div>
             <a href="#"><img src="./assets/images/logo.png" alt="header-logo"></a>
         </div>
         <div class="flex">
-            <a class="header-category" href="#">Sign in</a>
+            <a class="header-category text-black" href="#">Sign in</a>
             <button class="relative flex items-center ml-[40px] gap-[12px]">
-                <small class="header-category">CART</small>
+                <small class="header-category text-black">CART</small>
                 <img src="./assets/images/cart.svg" alt="cart">
-                <div class="mat-badge-content absolute top-[-12px] right-[-16px]">0</div>
+                <div class="mat-badge-content bg-badge-background border border-white absolute top-[-12px] right-[-16px]">0</div>
             </button>
         </div>
     </mat-toolbar>
+
+    <mat-toolbar class="bg-transparent flex justify-between items-center text-transform: uppercase h-[68px] max-w-[1440px] mx-auto px-4 tablet-mobile-header" *ngIf="isTabletOrMobile()">
+        <div class="max-w-[33.33%] flex-[0_0_33.33%]">
+            <button class="burger-menu-button flex" (click)="toggleMenu()">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </div>
+        <div class="max-w-[33.33%] flex-[0_0_33.33%]">
+            <a href="#"><img src="./assets/images/logo.png" alt="header-logo"></a>
+        </div>
+        <div>
+            <button class="relative flex items-center gap-[12px]">
+                <small class="header-category text-black">CART</small>
+                <img src="./assets/images/cart.svg" alt="cart">
+                <div class="mat-badge-content absolute bg-badge-background border border-white top-[-12px] right-[-16px]">0</div>
+            </button>
+        </div>
+    </mat-toolbar>
+
+    <div class="tablet-mobile-sidebar bg-white text-black h-screen fixed top-[68px] left-0 w-64 py-4 px-6" [class.show]="showMenu">
+        <button class="absolute top-2 right-2" (click)="toggleMenu()">
+            Close
+        </button>
+        <a class="block py-2" href="#">Shop</a>
+        <a class="block py-2" href="#">Why biom</a>
+        <a class="block py-2" href="#">Scents</a>
+        <a class="block py-2" href="#">Sign in</a>
+    </div>
 </header>
