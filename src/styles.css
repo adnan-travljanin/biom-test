@@ -5,22 +5,22 @@
 
 @font-face {
     font-family: 'Brandon-bold';
-    src: url('./assets/brandon-font/Brandon_bld.otf');
+    src: url('./assets/fonts/brandon-font/Brandon_bld.otf');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Brandon-medium';
-    src: url('./assets/brandon-font/Brandon_med.otf');
+    src: url('./assets/fonts/brandon-font/Brandon_med.otf');
     font-weight: 500;
 }
 @font-face {
     font-family: 'Brandon-regular';
-    src: url('./assets/brandon-font/Brandon_reg.otf');
+    src: url('./assets/fonts/brandon-font/Brandon_reg.otf');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Chronicle-display-black';
-    src: url('./assets/chronicle-display-font/Chronicle_Display_Black.otf');
+    src: url('./assets/fonts/chronicle-display-font/Chronicle_Display_Black.otf');
     font-weight: 900;
 }
 
@@ -63,7 +63,14 @@ section {
     border-radius: 6px;
     margin-top: 24px;
 }
-
+.banner-button:hover {
+    background: #FFFAFA;
+    transition: 0.3s ease;
+}
+.meet-biom-button:hover, .biom-wipes-button:hover  {
+    background: #023436;
+    transition: 0.3s ease;
+}
 marquee {
     transform: rotate(270deg);
     width: 657px;
@@ -433,11 +440,15 @@ app-slider .swiper-slide {
     max-width: 870px;
     margin: 0 auto;
 }
-.footer-categories a {
+.footer-categories .footer-category-link {
     font-family: 'Brandon-bold';
     font-size: 14px;
     letter-spacing: 1.4px;
     line-height: 20px;
+}
+.footer-category-link:hover {
+    border-bottom: 2px solid #105557;
+    margin-bottom: -2px;
 }
 .footer-main .footer-bottom {
     display: flex;

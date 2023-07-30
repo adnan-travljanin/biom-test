@@ -13,6 +13,7 @@ module.exports = {
       'rose-white':'#FFFAFA',
       'geyser':'#DAE5E5',
       'faded-jade':'#487D7F',
+      transparent:'transparent'
     },
   },
   plugins: [],

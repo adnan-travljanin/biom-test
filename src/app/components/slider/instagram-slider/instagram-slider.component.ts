@@ -10,12 +10,12 @@ import { SwiperComponent } from 'swiper/angular';
       [slidesPerView]="slidesPerView"
       [spaceBetween]="20"
     >
-      <ng-template swiperSlide> <img src="./assets/images/small_stock_wipe.png" alt=""></ng-template>
-      <ng-template swiperSlide> <img src="./assets/images/Biom_slider_black.png" alt=""></ng-template>
-      <ng-template swiperSlide> <img src="./assets/images/Biom_slider_one.png" alt=""></ng-template>
-      <ng-template swiperSlide> <img src="./assets/images/chair_slider.png" alt=""></ng-template>
-      <ng-template swiperSlide> <img src="./assets/images/Biom_slider.png" alt=""></ng-template>
-      <ng-template swiperSlide> <img src="./assets/images/hand_wipe.png" alt=""></ng-template>
+      <ng-template swiperSlide> <img src="./assets/images/small_stock_wipe.png"></ng-template>
+      <ng-template swiperSlide> <img src="./assets/images/Biom_slider_black.png"></ng-template>
+      <ng-template swiperSlide> <img src="./assets/images/Biom_slider_one.png"></ng-template>
+      <ng-template swiperSlide> <img src="./assets/images/chair_slider.png"></ng-template>
+      <ng-template swiperSlide> <img src="./assets/images/Biom_slider.png"></ng-template>
+      <ng-template swiperSlide> <img src="./assets/images/hand_wipe.png"></ng-template>
     </swiper>
   `,
   styles: [],

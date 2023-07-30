@@ -10,12 +10,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SwiperModule } from 'swiper/angular';
-import { SliderComponent } from './components/home/slider/needIt-slider/needItSlider.component';
-import { InstagramSliderComponent } from './components/home/slider/instagram-slider/instagram-slider.component';
-import { CarouselModule } from './carousel/carousel.module';
+import { SliderComponent } from './components/slider/needIt-slider/needItSlider.component';
+import { InstagramSliderComponent } from './components/slider/instagram-slider/instagram-slider.component';
+import { CarouselModule } from './components/carousel/carousel.module';
 import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({

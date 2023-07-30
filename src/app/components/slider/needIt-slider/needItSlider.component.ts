@@ -7,10 +7,10 @@ import { Component, HostListener, ViewEncapsulation } from '@angular/core';
       [slidesPerView]="slidesPerView"
       [spaceBetween]="20"
     >
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Living_Room.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">living room</div></div></ng-template>
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/office.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">office</div></div></ng-template>
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Kitchen_slide.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">kitchen</div></div></ng-template>
-      <ng-template swiperSlide><div class="relative"><img src="./assets/images/bathroom.png" alt="Banner Image" class="needIt-slider-image"><div class="slide-desription text-white">bathroom</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Living_Room.png" class="needIt-slider-image"><div class="slide-desription text-white">living room</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/office.png" class="needIt-slider-image"><div class="slide-desription text-white">office</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/Kitchen_slide.png" class="needIt-slider-image"><div class="slide-desription text-white">kitchen</div></div></ng-template>
+      <ng-template swiperSlide><div class="relative"><img src="./assets/images/bathroom.png" class="needIt-slider-image"><div class="slide-desription text-white">bathroom</div></div></ng-template>
     </swiper>
   `,
   styles: [
