@@ -1,27 +1,50 @@
-# BiomTest
+# Biom Test for HulkApps
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+The main goal of the project was to replicate the design that I was sent and to make everything functional and pixel perfect.
+
+# Project Description
+
+Biom is a company that sells wipes and I worked on the homepage of the webshop. Currently the homepage has no links that go straight to any other page.
+
+The main technologies that I used were
+* HTML - for the structure of the page, all of the html is connected to components in Angular.
+* CSS - for the styling, everything regarded to the styles can be found in styles.css
+* Typescript - for functionalities and creating the sliders as well as carousel.
+* Angular - as a framework of typescript and local environment.
+* Node.js - for the environment configuration. (basic config)
+
+# Project tech stack versions
+
+* @angular/cli: "~14.2.1",
+* @angular/compiler-cli: "^14.0.0",
+* @angular/cdk: "^13.3.9",
+* @angular/material: "^13.0.0",
+* tailwindcss: "^3.3.3",
+* typescript: "~4.7.2"
+
+Any other minor dependencies can be found in package.json file.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Before you run the if you don't have node installed on your local machine you should install it. Then you use `npm` to add Angular to your machine.
 
-## Code scaffolding
+The line you need to use to install it is: `npm i @angular/cli@14.2.1` to add Angular-CLI to your local machine.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The next step is you open the cloned project from GitHub in your code editor (I used VS Code).
 
-## Build
+Last step is run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+# Approach for the project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The first thing I did is take a look at the design and decided on what to work first, section by section, the first thing I did is create the header for the desktop version and banner image. I took the most time with creating 2 different sliders to work as per request on the design and also I lost a lot of time for the carousel for the testimonials. Then everything else was just similar to the first banner and just went at it to create it as close to pixel perfect on desktop. I had some issues with the design because I couldn't inspect some elements and I had to eyeball them to try and make them look as on the design. The project was quite challenging in the sense that it took a lot of knowledge of a lot of thing and understanding on how to set everything up but I quite enjoyed the challenge and I think I delivered. The use of tailwind could have been more introduced and used but I wanted to showcase that I know regular css as well (I also know SCSS, but didn't want to overcomplicate the project).
 
-## Running end-to-end tests
+# Things I liked/didn't like
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The main thing I liked was the stunning design of the page. As I said I enjoyed the challenge and to have the opportunity to work on the page. The project was also a learning experience and I am thrilled I worked on it.
 
-## Further help
+The main thing I didn't enjoy was creating the sliders in Angular, I had some difficulties but I managed to overcome them.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Estimated time to complete
+
+I think it took me about 5 days days or soo to finish it (would have worked on it longer but due to some family matters I didn't have that much time). I was working on it for 5-6 hours per day. 
